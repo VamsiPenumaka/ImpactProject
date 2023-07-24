@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.a{
+    color: white;
+    height: 80px;
+    background-color: lightgreen;
+    padding-top: 30px;
+}
+.a img{
+    position: relative;
+    top: -30px;
+}
+#a{
+    padding-top: 130px;
+}
+#b{
+    background-color:lightgreen ;
+}
+#c{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 2px 2px 4px white;
+    background-color: transparent;
+}
+#d{
+    border: 0px;
+    background-color: transparent;
+}
+#e{
+    border: 2px solid white;    
+    padding-top:0px;
+}
+.ab{
+   background-color: lightgreen;
+   margin-left: 10px;
+   padding: 90px 20px; 
+   position: relative;
+   top: -23px;
+   transform: scale(0.9);
+   transition: all 0.4s;
+
+}
+.ab:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+.col a{
+    text-decoration: none!important;
+    color:white;
+}
+.tweet:hover{
+    color: #00acee;
+}
+.insta:hover{
+color:#fa7e1e;
+}
+.fb:hover{
+    color:#3b5998;
+}
+.link:hover{
+    color:#0A66C2;
+}
